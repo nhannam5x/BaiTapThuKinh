@@ -106,7 +106,7 @@ state = {
           <div className='row text-center mt-5'>
             <div className='col-6' style={{postition:'relative'}}>
               <img  src="./glassesImage/model.jpg" alt="model.jpg" width={300}/>
-              <img style={styleGlass} width={180} src={this.state.glassesCurrent.url} alt="" srcset="" />
+              <img style={styleGlass} width={180} src={this.state.glassesCurrent.url} alt="" />
               <div style={infoGlass}>
                 <span style={{fontWeight:'bold',fontSize:'17px',color:'#AB82FF'}}>{this.state.glassesCurrent.name}</span><br />
                 <span style={{fontWeight:'13px'}}>{this.state.glassesCurrent.desc}</span>
